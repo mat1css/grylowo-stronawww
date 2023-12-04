@@ -1,0 +1,56 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+body, h1, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Stylowanie body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #261e1e; /* Ciemny kolor tła, przypominający wieczór */
+  color: #ffd700; /* Kolor tekstu - złoty */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Stylowanie nagłówka h1 */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #ffa500; /* Pomarańczowy kolor tekstu */
+  margin-bottom: 20px;
+}
+
+/* Stylowanie tekstu głównego */
+body > p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+/* Stylowanie linku */
+a {
+  color: #ffa500; /* Pomarańczowy kolor linku */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Stylowanie linku powrotu do strony głównej */
+a[href=".../index.html"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffa500; /* Pomarańczowy kolor tła linku */
+  color: #261e1e; /* Ciemny kolor tekstu linku */
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[href=".../index.html"]:hover {
+  background-color: #ffd700; /* Złoty kolor tła linku po najechaniu myszką */
+  color: #261e1e; /* Ciemny kolor tekstu linku po najechaniu myszką */
+}
